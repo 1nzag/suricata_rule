@@ -47,3 +47,7 @@ alert tcp any any -> 104.27.150.234 80 (msg:test rule; sid:10045;rev:1;)
 alert tcp any any -> 146.112.225.23 80 (msg:test rule; sid:10046;rev:1;)
 alert tcp any any -> 146.112.225.21 80 (msg:test rule; sid:10047;rev:1;)
 alert tcp any any -> 146.112.225.22 80 (msg:test rule; sid:10048;rev:1;)
+
+#https://yobit.net/en/dice/
+#https://www.facebook.com/profile.php?id=100019007882633
+#https://www.opioids.com/offshorepharmacy/index.html       : can't detect
