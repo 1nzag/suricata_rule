@@ -4,7 +4,7 @@ f2 = open("test.rules","w")
 
 i = 10000
 for host in f.readlines():
-    f2.writelines('alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"' + host[:-1] + '"; sid:' + str(i) + ";rev:1;)\n" )
+    f2.writelines('alert tcp any any -> any 80 (msg:"detect ' + host + '"; content:"GET /";content:"HOST:"' + host[:-1] + '"; sid:' + str(i) + ";rev:1;)\n" )
     i += 1
 
 f.close()

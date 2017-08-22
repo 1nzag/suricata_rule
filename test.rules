@@ -1,53 +1,81 @@
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://hitomi.la"; sid:10000;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://kass.org.kp/"; sid:10001;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://kcna.kp/"; sid:10002;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://kitribob.wiki/wiki/"; sid:10003;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://ks8282.com/"; sid:10004;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://naevr.com/"; sid:10005;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://naver6.com"; sid:10006;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://onaratv.com/"; sid:10007;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://pornpros.com"; sid:10008;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://rodong.rep.kp/"; sid:10009;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://snoopspy.com/download"; sid:10010;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://uriminzokkiri.com"; sid:10011;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.4shared.com"; sid:10012;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.bamwar25.com/"; sid:10013;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.faa25.com/"; sid:10014;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.ilbe.com/ilbe"; sid:10015;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.kimmadam.net/"; sid:10016;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.minjok.com"; sid:10017;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.narutoxxx.com"; sid:10018;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.naver.cm"; sid:10019;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.ryomyong.com"; sid:10020;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.sedisk.com"; sid:10021;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.sk386.com/"; sid:10022;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.tcosc.net/"; sid:10023;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.torenzoa.net"; sid:10024;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.umj262.com/"; sid:10025;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.uriminzokkiri.com"; sid:10026;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.uriminzokkiri.com/"; sid:10027;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://www.winclub88.net/my/4D.html"; sid:10028;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://test.gilgil.net/streaming/test.mp4"; sid:10029;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://linoit.com/users/men1212/canvases/19%EA%B8%88%20"; sid:10030;rev:1;)
-alert tcp any any -> any 80 (msg:"test rule"; content:"GET /";content:"HOST:"http://named.com/game/ladder/v2_index.php"; sid:10031;rev:1;)
-alert tcp any any -> 104.18.38.97 80 (msg:test rule; sid:10032;rev:1;)
-alert tcp any any -> 104.18.39.97 80 (msg:test rule; sid:10033;rev:1;)
-alert tcp any any -> 52.5.76.40 80 (msg:test rule; sid:10034;rev:1;)
-alert tcp any any -> 52.200.5.96 80 (msg:test rule; sid:10035;rev:1;)
-alert tcp any any -> 52.2.9.91 80 (msg:test rule; sid:10036;rev:1;)
-alert tcp any any -> 206.125.164.82 80 (msg:test rule; sid:10037;rev:1;)
-alert tcp any any -> 104.25.107.107 80 (msg:test rule; sid:10038;rev:1;)
-alert tcp any any -> 104.25.108.107 80 (msg:test rule; sid:10039;rev:1;)
-alert tcp any any -> 104.27.144.154 80 (msg:test rule; sid:10040;rev:1;)
-alert tcp any any -> 104.27.145.154 80 (msg:test rule; sid:10041;rev:1;)
-alert tcp any any -> 104.20.188.49 80 (msg:test rule; sid:10042;rev:1;)
-alert tcp any any -> 104.20.189.49 80 (msg:test rule; sid:10043;rev:1;)
-alert tcp any any -> 104.27.151.234 80 (msg:test rule; sid:10044;rev:1;)
-alert tcp any any -> 104.27.150.234 80 (msg:test rule; sid:10045;rev:1;)
-alert tcp any any -> 146.112.225.23 80 (msg:test rule; sid:10046;rev:1;)
-alert tcp any any -> 146.112.225.21 80 (msg:test rule; sid:10047;rev:1;)
-alert tcp any any -> 146.112.225.22 80 (msg:test rule; sid:10048;rev:1;)
-
-#https://yobit.net/en/dice/
-#https://www.facebook.com/profile.php?id=100019007882633
-#https://www.opioids.com/offshorepharmacy/index.html       : can't detect
+alert tcp any any -> any 80 (msg:"detect http://hitomi.la
+"; content:"GET /";content:"HOST:"http://hitomi.la"; sid:10000;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://kass.org.kp/
+"; content:"GET /";content:"HOST:"http://kass.org.kp/"; sid:10001;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://kcna.kp/
+"; content:"GET /";content:"HOST:"http://kcna.kp/"; sid:10002;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://kitribob.wiki/wiki/
+"; content:"GET /";content:"HOST:"http://kitribob.wiki/wiki/"; sid:10003;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://ks8282.com/
+"; content:"GET /";content:"HOST:"http://ks8282.com/"; sid:10004;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://naevr.com/
+"; content:"GET /";content:"HOST:"http://naevr.com/"; sid:10005;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://naver6.com
+"; content:"GET /";content:"HOST:"http://naver6.com"; sid:10006;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://onaratv.com/
+"; content:"GET /";content:"HOST:"http://onaratv.com/"; sid:10007;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://pornpros.com
+"; content:"GET /";content:"HOST:"http://pornpros.com"; sid:10008;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://rodong.rep.kp/
+"; content:"GET /";content:"HOST:"http://rodong.rep.kp/"; sid:10009;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://snoopspy.com/download
+"; content:"GET /";content:"HOST:"http://snoopspy.com/download"; sid:10010;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://uriminzokkiri.com
+"; content:"GET /";content:"HOST:"http://uriminzokkiri.com"; sid:10011;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.4shared.com
+"; content:"GET /";content:"HOST:"http://www.4shared.com"; sid:10012;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.bamwar25.com/
+"; content:"GET /";content:"HOST:"http://www.bamwar25.com/"; sid:10013;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.faa25.com/
+"; content:"GET /";content:"HOST:"http://www.faa25.com/"; sid:10014;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.ilbe.com/ilbe
+"; content:"GET /";content:"HOST:"http://www.ilbe.com/ilbe"; sid:10015;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.kimmadam.net/
+"; content:"GET /";content:"HOST:"http://www.kimmadam.net/"; sid:10016;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.minjok.com
+"; content:"GET /";content:"HOST:"http://www.minjok.com"; sid:10017;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.narutoxxx.com
+"; content:"GET /";content:"HOST:"http://www.narutoxxx.com"; sid:10018;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.naver.cm
+"; content:"GET /";content:"HOST:"http://www.naver.cm"; sid:10019;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.ryomyong.com
+"; content:"GET /";content:"HOST:"http://www.ryomyong.com"; sid:10020;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.sedisk.com
+"; content:"GET /";content:"HOST:"http://www.sedisk.com"; sid:10021;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.sk386.com/
+"; content:"GET /";content:"HOST:"http://www.sk386.com/"; sid:10022;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.tcosc.net/
+"; content:"GET /";content:"HOST:"http://www.tcosc.net/"; sid:10023;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.torenzoa.net
+"; content:"GET /";content:"HOST:"http://www.torenzoa.net"; sid:10024;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.umj262.com/
+"; content:"GET /";content:"HOST:"http://www.umj262.com/"; sid:10025;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.uriminzokkiri.com
+"; content:"GET /";content:"HOST:"http://www.uriminzokkiri.com"; sid:10026;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.uriminzokkiri.com/
+"; content:"GET /";content:"HOST:"http://www.uriminzokkiri.com/"; sid:10027;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://www.winclub88.net/my/4D.html
+"; content:"GET /";content:"HOST:"http://www.winclub88.net/my/4D.html"; sid:10028;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://test.gilgil.net/streaming/test.mp4
+"; content:"GET /";content:"HOST:"http://test.gilgil.net/streaming/test.mp4"; sid:10029;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://linoit.com/users/men1212/canvases/19%EA%B8%88%20
+"; content:"GET /";content:"HOST:"http://linoit.com/users/men1212/canvases/19%EA%B8%88%20"; sid:10030;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://named.com/game/ladder/v2_index.php
+"; content:"GET /";content:"HOST:"http://named.com/game/ladder/v2_index.php"; sid:10031;rev:1;)
+alert tcp any any -> 104.18.38.97 443 (msg:test rule; sid:10032;rev:1;)
+alert tcp any any -> 104.18.39.97 443 (msg:test rule; sid:10033;rev:1;)
+alert tcp any any -> 52.5.76.40 443 (msg:test rule; sid:10034;rev:1;)
+alert tcp any any -> 52.200.5.96 443 (msg:test rule; sid:10035;rev:1;)
+alert tcp any any -> 52.2.9.91 443 (msg:test rule; sid:10036;rev:1;)
+alert tcp any any -> 206.125.164.82 443 (msg:test rule; sid:10037;rev:1;)
+alert tcp any any -> 104.25.107.107 443 (msg:test rule; sid:10038;rev:1;)
+alert tcp any any -> 104.25.108.107 443 (msg:test rule; sid:10039;rev:1;)
+alert tcp any any -> 104.27.144.154 443 (msg:test rule; sid:10040;rev:1;)
+alert tcp any any -> 104.27.145.154 443 (msg:test rule; sid:10041;rev:1;)
+alert tcp any any -> 104.20.188.49 443 (msg:test rule; sid:10042;rev:1;)
+alert tcp any any -> 104.20.189.49 443 (msg:test rule; sid:10043;rev:1;)
+alert tcp any any -> 104.27.151.234 443 (msg:test rule; sid:10044;rev:1;)
+alert tcp any any -> 104.27.150.234 443 (msg:test rule; sid:10045;rev:1;)
+alert tcp any any -> 146.112.225.23 443 (msg:test rule; sid:10046;rev:1;)
+alert tcp any any -> 146.112.225.21 443 (msg:test rule; sid:10047;rev:1;)
+alert tcp any any -> 146.112.225.22 443 (msg:test rule; sid:10048;rev:1;)
