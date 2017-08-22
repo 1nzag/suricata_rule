@@ -27,7 +27,7 @@ alert tcp any any -> any 80 (msg:"detect http://www.umj262.com/"; content:"GET /
 alert tcp any any -> any 80 (msg:"detect http://www.uriminzokkiri.com"; content:"GET /";content:"HOST:"www.uriminzokkiri.com"; sid:10026;rev:1;)
 alert tcp any any -> any 80 (msg:"detect http://www.uriminzokkiri.com/"; content:"GET /";content:"HOST:"www.uriminzokkiri.com/"; sid:10027;rev:1;)
 alert tcp any any -> any 80 (msg:"detect http://www.winclub88.net/my/4D.html"; content:"GET /";content:"HOST:"www.winclub88.net/my/4D.html"; sid:10028;rev:1;)
-alert tcp any any -> any 80 (msg:"detect http://test.gilgil.net/streaming/test.mp4"; content:"GET /";content:"HOST:"test.gilgil.net/streaming/test.mp4"; sid:10029;rev:1;)
+alert tcp any any -> any 80 (msg:"detect http://test.gilgil.net/streaming/test.mp4"; content:"GET /streaming";content:"HOST:test.gilgil.net";content:".mp4 /HTTP 1."; sid:10029;rev:1;)
 alert tcp any any -> any 80 (msg:"detect http://linoit.com/users/men1212/canvases/19%EA%B8%88%20"; content:"GET /";content:"HOST:"linoit.com/users/men1212/canvases/19%EA%B8%88%20"; sid:10030;rev:1;)
 alert tcp any any -> any 80 (msg:"detect http://named.com/game/ladder/v2_index.php"; content:"GET /";content:"HOST:"named.com/game/ladder/v2_index.php"; sid:10031;rev:1;)
 alert tcp any any -> 104.18.38.97 443 (msg:test rule; sid:10032;rev:1;)
